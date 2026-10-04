@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale="1.0">
     <title>Google</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- CABECERA-->
+    <header class="header">
+        <!--ENLACES DE LA IZQUIERDA-->
+        <nav class="nav-left">
+            <a href="#">Sobre Google</a>
+            <a href="#">Tienda</a>
+        </nav>
+
+
+        <!--ENLACES Y BOTON DE LA DERECHA-->
+        <nav class="nav-right">
+            <a href="#">Gmail</a>
+            <a href="#">Imágenes</a>
+            <a href="#" class="icon-apps" title="Aplicaciones"><img src="img/grid-icon.png" alt="Aplicaciones de Google"</a>
+            <a href="#" class="btn-login">Iniciar sesión</a>
+        </nav>
+    </header>
+    <!-- 2. CONTENIDO PRINCIPAL-->
+     <main class="main-content">
+        <!-- Logotipo oficial-->
+      <img class="logo" src="img/google_logo.png" alt="Google">
+
+      <!--FORMULARIO/ BARRA DE BUSQUEDA (INPUT)-->
+      <form class="search-form" action="https://www.google.com/search" method="GET">
+        <div class="search-bar">
+            <img class="search-icon" src="img/micro_icono.png" alt="Voz">
+        </div>
+
+        <!--Botones Centrales-->
+        <div class="buttons-group">
+                <button type="submit">Buscar en google</button>
+                <button type="button">Voy a tener suerte</button>
+        </div>
+      </form>
+        <!-- Enlaces adicionales inferiores-->
+          <div class="extra-info">
+            <a href="#" class="covid-link">Información y recursos sobre Coronavirus COVID-19</a>
+            <p class="languages">
+                Ofrecido en:
+                <a href="#">català</a>
+                <a href="#">galego</a>
+                <a href="#">euskera</a>
+            </p>
+          </div>
+         </main>
 
 </body>
 </html>

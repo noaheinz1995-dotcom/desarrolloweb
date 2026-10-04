@@ -1,0 +1,190 @@
+/* Quita los margenes por defecto y asegura el calculo correcto de tamaños*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #202124;
+}
+
+/*Eliminina el subrayado azul de los enlaces*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Solo se subraya al pasar el cursos por encima*/
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Empuja un bloque a la izquierda y otro a la derecha*/
+    align-items: center;  /*Alinea todo al centro verticalmente*/
+    padding: 15px 24px; /*Espacio interno 15px arriba/abajo 24px izqu/derec */
+}
+
+/*Margen lateral para que los enlaces no queden pegados entre si */
+.nav-left a,
+.nav-right a {
+    margin: 0 8px;
+    color: #3c4043;
+}
+
+/*Alinea internamente los elementos a la derecha*/
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Botón azul caracteristico de google*/
+.btn-login {
+    background-color: #1a73e8;
+    color: #ffffff !important;
+    font-weight: 500;
+    padding: 9px 23px;
+    border-radius: 4px;
+    margin-left: 12px !important;
+    display: inline-block;
+    }
+
+    .btn-login:hover {
+        background-color: #1b66c9;
+        text-decoration: none;
+        box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3);
+    }
+
+/*Estilo para los tres puntitos*/
+    .icon-apps {
+        font-size: 18px;
+        color: #5f6368;
+        letter-spacing: 2px;
+    }
+    .icon-apps img {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        opacity: 0.7;
+}
+
+    .icon-apps img:hover {
+        opacity: 1;
+}
+
+/*Altura completa del documento */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Area central*/
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.logo {
+    width: 272px;
+    height: 92px;
+    margin-bottom: 25px;
+}
+
+/*Barra de busqueda*/
+.search-form {
+    width: 100%;
+    max-width: 584px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 0 14px;
+    height: 46px;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.search-bar:hover,
+-search-bar:focus-within {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-color: transparent;
+}
+
+.search-bar input {
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.search-icon {
+    width: 16px;
+    height: 16px;
+    opacity: 0.5;
+}
+
+.mic-icon {
+    width:  16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+/*Botones grises*/
+-buttons-group {
+    margin-top: 25px;
+    display: flex;
+    gap: 12px;
+}
+
+.buttons-group button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.buttons-group button:hover {
+    box-shadow:  0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f1f3f4;
+    border-color: #dadce0;
+    color: #202124
+}
+
+/*Enlaces inferiores*/
+.extra-info {
+    margin-top: 28px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.covid-link {
+    color: #1a0dab;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.languages a {
+    color: #1a0dab;
+    margin: 0 4 px;
+}
