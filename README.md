@@ -1,3 +1,11 @@
+## 📚 Contexto y Créditos
+Este repositorio contiene una práctica realizada durante el curso **DESARROLLO WEB** impartido por **ALAN WAGNER, UDEMY**.
+
+- **Objetivo:** Clonar la interfaz de Google para practicar los fundamentos de HTML5 y CSS3.
+- **Material base:** Proporcionado por el instructor del curso.
+- **Código y maquetación:** Implementado paso a paso como ejercicio de aprendizaje personal.
+
+
 # Bootcamp Web - Ejercicio 1
 
 Ya hemos aprendido los conceptos básicos de HTML y CSS. Seguramente nos 
@@ -26,8 +34,15 @@ De esta manera aprenderás de los errores y las dificultades.
 
 ![Screenshot](./solucion/img/google_con_estilos.png)
 
-
-
 ## Primero, sin aplicar CSS tendremos algo así
 
 ![Screenshot](./solucion/img/google_sin_estilos.png)
+
+
+
+## 📚 Contexto y Créditos
+Este repositorio contiene una práctica realizada durante el curso **DESARROLLO WEB** impartido por **Alan Wagner, UDEMY**.
+
+- **Objetivo:** Clonar la interfaz de Google para practicar los fundamentos de HTML5 y CSS3.
+- **Material base:** Proporcionado por el instructor del curso.
+- **Código y maquetación:** Implementado paso a paso como ejercicio de aprendizaje personal.
