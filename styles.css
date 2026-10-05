@@ -9,6 +9,9 @@
     font-family: Arial, sans-serif;
     font-size: 14px;
     color: #202124;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /*Eliminina el subrayado azul de los enlaces*/
@@ -76,12 +79,6 @@ a:hover {
         opacity: 1;
 }
 
-/*Altura completa del documento */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
 
 /*Area central*/
 
@@ -121,7 +118,7 @@ body {
 }
 
 .search-bar:hover,
--search-bar:focus-within {
+.search-bar:focus-within {
     box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
     border-color: transparent;
 }
@@ -148,7 +145,7 @@ body {
 }
 
 /*Botones grises*/
--buttons-group {
+.buttons-group {
     margin-top: 25px;
     display: flex;
     gap: 12px;
@@ -188,3 +185,38 @@ body {
     color: #1a0dab;
     margin: 0 4 px;
 }
+
+/*ESTILOS DEL FOOTER*/
+.footer {
+    width: 100%;
+    background-color: #f2f2f2; /*Fondo clasico de google*/
+    color: #70757a; /*Texto Gris atenuado*/
+    font-size: 14px;
+}
+
+/*Fila superior, "ESPAÑA"*/
+.footer-top {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;/*Linea Separadora Fina*/
+}
+
+/*Fila inferior: contenedor de las dos columnas de enlaces*/
+.footer-bottom {
+    display: flex;
+    justify-content: space-between; /*Empuja izquierda a la izq y derecha a la der*/
+    align-items: center;   /* Si la pantalla se achica, permite que baje la linea*/
+    padding: 12px 20px;
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+    gap: 20px;
+}
+
+/*Enlaces individuales del pie de pagina */
+.footer-left a,
+.footer-right a {
+    color: #70757a;
+}
+
